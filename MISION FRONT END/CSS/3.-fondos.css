@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 400px;
+}
+
+div{
+    height: 400px;
+}
+
+.fondoColor{
+    background-color: #0f6666;
+}
+
+.fondoOpacidad{
+    background-color: #5d0c0c;
+    opacity: 0.6;
+}
+
+.fondoImagen{
+    background-image: url("../HTML/Galaxy\ Tacos.png");
+    }
+
+.fondoRepetidoX{
+    background-image: url("https://th.bing.com/th/id/R.9e385753458e97ebd1c8477c6dbe0821?rik=uizJpFna4%2bgDRg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-YdfjbvMp4MA%2fTl9s7AizipI%2fAAAAAAAAAaM%2fowmHPRP34vk%2fs1600%2f%25255BWallpaperHD%25255Dabstract%2b0044.jpg&ehk=oDX8VjLyCpKTKaH4apkdMlSzvdV9W%2fiDqAd1vvBvk2k%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: repeat-x;
+}
+
+.fondoRepetidoY{
+    background-image: url("https://th.bing.com/th/id/OIP.r6qg8Tk6nfSVFpvB8oMVwwHaEo?pid=ImgDet&rs=1");
+    background-repeat: repeat-y;
+}
+
+.fondoNoRepetido{
+    background-image: url("../HTML/Galaxy\ Tacos.png");
+    background-repeat: no-repeat;
+}
+
+.fondoPosicion{
+    background-image: url("../HTML/Galaxy\ Tacos.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.fondoCompleto{
+    background-image: url("../HTML/Galaxy\ Tacos.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

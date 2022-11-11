@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <style>
+        *{ /* cuando uno pone * significa que afecta a toda la pagina */
+            font-family: Arial, Helvetica, sans-serif;
+            
+            font-weight: bold;
+        }
+
+        body{
+            background-color: #6e0628;
+        }
+
+        p{ /* p significa parrafo */
+            color: #ffffff;
+            text-align: center;
+        }
+
+        /* # este simbolo sirve para indicar el id */
+
+        #titulo{
+            color: #6062b9;
+            text-align: right;
+            font-size: x-large;
+        }
+
+        .izquierda{
+            color: #f7ffad;
+            background-color: rgb(27, 42, 172);
+        }
+
+        p.izquierda{
+            text-decoration: underline;
+            text-align: left;
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: #ffffff;
+        }
+
+        .contraste{
+            background-color: #353030;
+        }
+
+        h1, h2, p{
+            font-weight: bold;
+        }
+
+        .contraste , .izquierda{
+            border: #6062b9;
+            border-width: unset;
+        }
+
+        /* Comentario CSS */
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Header simple</h1>
+    <h2 id="titulo" class="izquierda">Header con id Titulo</h2>
+    <p>este es el ejemplo de un Parrafo simple <br> aqui aprovechamos a escribir la informacion</p>
+
+    <h3 class="izquierda">Prueba clase Header 3</h3>
+    <p class="izquierda">Prueba clase parrafo</p>
+    <h3 class="izquierda contraste">Prueba multiples clases parrafo</h3>
+   <h4 class="izquierda contraste">hola mundo</h4>
+    
+</body>
+</html>
